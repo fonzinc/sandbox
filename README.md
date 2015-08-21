@@ -40,7 +40,7 @@ Strange. (Is this on a new line?)
 #### Emphasis
 underscores_don't_modify_text_formatting
 
-*Use '*' *instead
+*Use * instead*
 
 ~~Strikethrough~~
 
