@@ -5,8 +5,13 @@ A place to play around
 # GitHub Flavord Markdown
 
 #### Linebreaks
+
 Linebreaks are handled
 as you would expect.
+
+That's interesting. Linebreaks acutally didn't work like I was expecting them to. The previous line should be broken between the "handled" and the "as".
+
+Strange. (Is this on a new line?)
 
 
 #### Lists
@@ -14,9 +19,11 @@ as you would expect.
 * Will
 * Work
 
+
 - So
 - Does
 - This
+
 
 1. And
 2. This
@@ -32,7 +39,7 @@ as you would expect.
 
 #### Emphasis
 underscores_don't_modify_text_formatting
-*Use '*' instead*
+*Use ** *instead
 
 ~~Strikethrough~~
 
@@ -60,8 +67,9 @@ function myCode2() {
 
 #### Tables
 
-| And | This | Is | A | Table |
-|:--- |:----:| -- | - | -----:|
+| And   | This   |   Is |   A |   Table   |
+|:----- |:------:| ---- | --- | ---------:|
+|  asd  |  sfd   | df   | f   | lsdkfjla  |
 | 1 | ~~2~~ | *3* | 4 | 5 |
 | 6 | 7 | 8 | 9 | 10 |
 
