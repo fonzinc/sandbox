@@ -2,33 +2,54 @@
 A place to play around
 
 
-GitHub Flavord Markdown
+# GitHub Flavord Markdown
 
+#### Linebreaks
 Linebreaks are handled
 as you would expect.
 
 
-Task lists
+#### Lists
+* This
+* Will
+* Work
+
+- So
+- Does
+- This
+
+1. And
+2. This
+  * (Will Work)
+3. Too
+
+
+#### Task Lists
 - [ ] Here's something to do.
 - [x] Here's something that has been done.
   - [ ] But this one still needs to be done.
 
 
+#### Emphasis
 underscores_don't_modify_text_formatting
 *Use '*' instead*
-
-http://fonzinc.com
 
 ~~Strikethrough~~
 
 
+#### Links
+http://example.com (Also Linked below)
+[Right Here](http://example.com)
+
+
+#### Code
 Here's a function:
 
     function myCode() {
         echo "It works!"
     }
 
-And here's another:
+And here's another with color:
 
 ```shell
 function myCode2() {
@@ -37,7 +58,10 @@ function myCode2() {
 ```
 
 
+#### Tables
+
 | And | This | Is | A | Table |
-| :-- | :--: | -- | - | ----: |
+|:--- |:----:| -- | - | -----:|
 | 1 | ~~2~~ | *3* | 4 | 5 |
+| 6 | 7 | 8 | 9 | 10 |
 
